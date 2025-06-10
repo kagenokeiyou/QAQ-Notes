@@ -11,10 +11,14 @@
             "id": "e679f173fe472164",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Git"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Git 的大纲"
             }
           },
           {
@@ -172,8 +177,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a421c0a0ef83283",
+  "active": "e679f173fe472164",
   "lastOpenFiles": [
+    "Git.md",
     "未命名.canvas",
     "README.md"
   ]
