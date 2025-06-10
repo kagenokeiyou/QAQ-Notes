@@ -34,7 +34,14 @@
   "app:open-help": [],
   "editor:follow-link": [],
   "app:open-settings": [],
-  "app:go-back": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
   "workspace:close-window": [],
   "graph:open": [],
   "switcher:open": [
@@ -45,9 +52,23 @@
       "key": "Tab"
     }
   ],
-  "app:go-forward": [],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
   "editor:toggle-checklist-status": [],
-  "markdown:toggle-preview": [],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
   "editor:set-heading-1": [
     {
       "modifiers": [
@@ -158,5 +179,21 @@
     }
   ],
   "editing-toolbar:fullscreen-focus": [],
-  "editing-toolbar:workplace-fullscreen-focus": []
+  "editing-toolbar:workplace-fullscreen-focus": [],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ]
 }
