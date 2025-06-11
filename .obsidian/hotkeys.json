@@ -34,14 +34,6 @@
   "app:open-help": [],
   "editor:follow-link": [],
   "app:open-settings": [],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
   "workspace:close-window": [],
   "graph:open": [],
   "switcher:open": [
@@ -55,7 +47,7 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowRight"
     }
@@ -64,7 +56,7 @@
   "markdown:toggle-preview": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "V"
     }
@@ -194,6 +186,30 @@
         "Mod"
       ],
       "key": "-"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
     }
   ]
 }

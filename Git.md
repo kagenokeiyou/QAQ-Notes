@@ -1,9 +1,13 @@
+![](./Images/Git-logo.png)
+
 # Git 教程
 
 ## 关于 Git
 
-git 是一个分布式版本控制软件，最初由 Linus Torvalds 创作，于 2005 年以 GPL 许可协议发布。最初目的是为了更好地管理 Linux 内核开发而设计。
+Git 是一个**分布式**版本控制软件，最初由 Linus Torvalds 创作，于 2005 年以 GPL 许可协议发布。
 
-自2002年开始，Linus Torvalds 决定使用 BitKeeper 作为 Linux 内核主要的版本控制系统用以维护代码。因为 BitKeeper 为专有软件，这个决定在社群中长期遭受质疑。在 Linux 社群中，特别是 Richard Stallman 与自由软件基金会的成员，主张应该使用开放源代码的软件来作为 Linux 内核的版本控制系统。Linus Torvalds 曾考虑过采用现成软件作为版本控制系统（例如 Monotone），但这些软件都存在一些问题，特别是性能不佳。现成的方案，如 CVS 的架构，受到 Linus Torvalds 的批评。
+众所周知，Linus  创建了开源的 Linux，那么 Linux 是如何进行版本管理的呢？
 
-2005年，Andrew Tridgell 写了一个简单程序，可以连接 BitKeeper 的仓库，BitKeeper 著作权拥有者 Larry McVoy 认为 Andrew Tridgell 对 BitKeeper 内部使用的协议进行逆向工程，决定收回无偿使用 BitKeeper 的许可。Linux 内核开发团队与 BitMover 公司进行磋商，但无法解决他们之间的歧见。Linus Torvalds 决定自行开发版本控制系统替代 BitKeeper，以十天的时间编写出 git 第一个版本。
+早期，世界各地的开发者需要将源代码发给 Linus，再由 Linus 手动合并。随着项目的发展，Linus 逐渐力不从心，很难再通过手动的方式管理了。于是 Linus 选择了商业的版本控制系统 BitKeeper，BitKeeper 的东家 BitMover 公司出于人道主义精神，授权 Linux 社区免费使用这个版本控制系统。然而在 2005 年，一位开发者试图逆向 BitKeeper 协议，BitMover 公司发现后，决定收回 Linux 社区免费使用 BitKeeper 的许可。一怒之下，Linus 决定自行开发版本控制系统替代 BitKeeper，以十天的时间编写出 Git 第一个版本。
+
+随后 Git 迅速成为最流行的分布式版本控制系统。2008年，GitHub 网站上线了，它为开源项目免费提供Git存储，无数开源项目开始迁移至GitHub 。
