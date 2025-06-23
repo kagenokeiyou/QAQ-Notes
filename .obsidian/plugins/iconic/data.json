@@ -1,0 +1,83 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showMenuActions": true,
+  "showQuickSwitcherIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {},
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "23M15",
+      "name": "markdown",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "md"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-pen"
+    },
+    {
+      "id": "ZMZ0a",
+      "name": "image",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "png"
+        },
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "jpg"
+        },
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "jpeg"
+        },
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "webp"
+        },
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "svg"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-image"
+    }
+  ],
+  "folderRules": []
+}
