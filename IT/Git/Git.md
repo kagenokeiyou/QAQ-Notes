@@ -1,1 +1,3 @@
-![[GitStates.png]]![[GitStatus.png]]
+![](/Assets/GitStates.png)
+
+![](/Assets/GitStatus.png)
